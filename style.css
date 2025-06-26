@@ -1,0 +1,72 @@
+body {
+    font-family: Arial;
+    background: #111;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+input, button {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+input {
+    background: #333;
+    color: #fff;
+}
+button {
+    background: #007bff; /* Um azul para o botão */
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background: #0056b3;
+}
+
+h1 {
+    color: #1f09e5; /* Cor parecida com a Netflix */
+}
+
+.filmes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Espaçamento entre os cards */
+    margin-top: 20px;
+}
+.card {
+    background: #222;
+    border-radius: 10px;
+    margin: 10px; /* Mantive margin para compatibilidade, mas preferi gap no .filmes */
+    padding: 15px;
+    width: 220px; /* Ajuste a largura do card para caber a imagem */
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Sombra para dar profundidade */
+    transition: transform 0.2s; /* Efeito ao passar o mouse */
+    overflow: hidden; /* Garante que a imagem não vaze */
+}
+.card:hover {
+    transform: translateY(-5px); /* Levanta o card ao passar o mouse */
+}
+
+.capa-filme {
+    width: 100%; /* A imagem preenche a largura do card */
+    height: 300px; /* Altura fixa para as capas (ajuste conforme necessário) */
+    object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
+    border-radius: 5px; /* Bordas arredondadas para a imagem */
+    margin-bottom: 10px; /* Espaço abaixo da imagem */
+}
+
+/* Adicionando alguns estilos para os textos dentro do card */
+.card h2 {
+    font-size: 1.2em;
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #fff;
+}
+.card p {
+    font-size: 0.9em;
+    margin-bottom: 5px;
+    color: #bbb;
+}
