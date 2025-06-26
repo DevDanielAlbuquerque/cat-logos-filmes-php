@@ -17,6 +17,14 @@ Este é um projeto simples de catálogo de filmes desenvolvido em PHP, HTML e CS
   * **Banco de Dados:** MySQL
   * **Ambiente de Desenvolvimento:** Laragon (Apache, MySQL, PHP)
 
+## 🎬 Imagens do Projeto
+
+<p>Tela Inicial:<br>
+<a href="https://ibb.co/pBPsP5Rs"><img src="https://i.ibb.co/Q3cqctCq/Captura-de-tela-2025-06-26-004531.png" alt="Captura-de-tela-2025-06-26-004531" border="0" /></a>
+
+<p>Tela de Busca:<br>
+<a href="https://ibb.co/LXvXSrPz"><img src="https://i.ibb.co/cSxSJwvc/Captura-de-tela-2025-06-26-004552.png" alt="Captura-de-tela-2025-06-26-004552" border="0" /></a>
+
 ## ⚙️ Como Configurar e Rodar o Projeto Localmente
 
 Siga os passos abaixo para configurar e rodar o projeto em seu ambiente de desenvolvimento.
